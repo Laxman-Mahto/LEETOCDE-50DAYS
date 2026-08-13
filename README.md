@@ -36,3 +36,10 @@ A comprehensive structured repository covering 175 LeetCode problems organized i
 - Day 24: Graphs - BFS, DFS & Flood Fill
 - Day 25: Graphs - Topological Sort & Bipartite
 
+### Week 6: DSU, Trie & Dynamic Programming
+- Day 26: Disjoint Set Union & Trie
+- Day 27: Dynamic Programming - 1D Basics
+- Day 28: Dynamic Programming - Knapsack & LIS
+- Day 29: Dynamic Programming - 2D Grid
+- Day 30: Dynamic Programming - Strings & Ranges
+
