@@ -60,3 +60,7 @@ Problems are grouped strictly by core algorithmic pattern for optimal recall.
 ## Complexity Guidelines
 All solutions are engineered to pass within LeetCode time limits with optimal asymptotic complexities.
 
+## Practice Progress Tracker
+
+| Day | Topic | Status | Problems |
+|---|---|---|---|
