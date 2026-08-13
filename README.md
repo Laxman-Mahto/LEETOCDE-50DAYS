@@ -8,3 +8,10 @@ A comprehensive structured repository covering 175 LeetCode problems organized i
 - Day 04: Two Pointers & Frequency Maps
 - Day 05: Sliding Window Intro & Kadane's
 
+### Week 2: Stacks, Binary Search & Linked Lists
+- Day 06: Stack Foundations
+- Day 07: Binary Search Fundamentals
+- Day 08: Singly Linked List Basics
+- Day 09: Fast & Slow Pointers & Manipulation
+- Day 10: Matrix & Simulation
+
