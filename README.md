@@ -57,3 +57,6 @@ Click the green play button next to the class or method to run.
 ## Pattern Taxonomy
 Problems are grouped strictly by core algorithmic pattern for optimal recall.
 
+## Complexity Guidelines
+All solutions are engineered to pass within LeetCode time limits with optimal asymptotic complexities.
+
