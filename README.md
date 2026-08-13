@@ -22,3 +22,10 @@ A comprehensive structured repository covering 175 LeetCode problems organized i
 - Day 14: Monotonic Stack
 - Day 15: Binary Trees - DFS & Properties
 
+### Week 4: Trees, BST & Backtracking
+- Day 16: Binary Trees - BFS & Level Order
+- Day 17: Binary Trees - Paths & Construction
+- Day 18: Binary Search Trees (BST)
+- Day 19: Recursion & Backtracking I
+- Day 20: Backtracking II
+
