@@ -50,3 +50,7 @@ A comprehensive structured repository covering 175 LeetCode problems organized i
 - Day 34: Classic Hard & Advanced Structures
 - Day 35: Capstone Challenges
 
+## Running in IntelliJ IDEA
+Every file has an executable public static void main(String[] args) method with realistic test inputs.
+Click the green play button next to the class or method to run.
+
