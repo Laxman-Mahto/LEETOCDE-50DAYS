@@ -43,3 +43,10 @@ A comprehensive structured repository covering 175 LeetCode problems organized i
 - Day 29: Dynamic Programming - 2D Grid
 - Day 30: Dynamic Programming - Strings & Ranges
 
+### Week 7: Bit Manipulation, Math & Advanced Topics
+- Day 31: Bit Manipulation
+- Day 32: Math & Number Theory
+- Day 33: Shortest Paths & Graph Algorithms
+- Day 34: Classic Hard & Advanced Structures
+- Day 35: Capstone Challenges
+
