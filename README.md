@@ -15,3 +15,10 @@ A comprehensive structured repository covering 175 LeetCode problems organized i
 - Day 09: Fast & Slow Pointers & Manipulation
 - Day 10: Matrix & Simulation
 
+### Week 3: Intermediate Pointers, Sliding Window & Trees
+- Day 11: Two Pointers Intermediate
+- Day 12: Sliding Window Intermediate
+- Day 13: Binary Search on Answer & Rotated
+- Day 14: Monotonic Stack
+- Day 15: Binary Trees - DFS & Properties
+
