@@ -54,3 +54,6 @@ A comprehensive structured repository covering 175 LeetCode problems organized i
 Every file has an executable public static void main(String[] args) method with realistic test inputs.
 Click the green play button next to the class or method to run.
 
+## Pattern Taxonomy
+Problems are grouped strictly by core algorithmic pattern for optimal recall.
+
