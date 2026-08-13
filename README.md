@@ -29,3 +29,10 @@ A comprehensive structured repository covering 175 LeetCode problems organized i
 - Day 19: Recursion & Backtracking I
 - Day 20: Backtracking II
 
+### Week 5: Heaps, Greedy & Graphs
+- Day 21: Heap & Priority Queue
+- Day 22: Greedy Algorithms
+- Day 23: Intervals
+- Day 24: Graphs - BFS, DFS & Flood Fill
+- Day 25: Graphs - Topological Sort & Bipartite
+
