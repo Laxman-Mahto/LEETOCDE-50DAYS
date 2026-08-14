@@ -1,6 +1,10 @@
 package day01;
 
 public class b242 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.isAnagram("anagram", "nagaram"));
+    }
 
     static class Solution {
         public boolean isAnagram(String s, String t) {
