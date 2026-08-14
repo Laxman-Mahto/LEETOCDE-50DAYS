@@ -1,6 +1,10 @@
 package day01;
 
 public class e392 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.isSubsequence("abc", "ahbgdc"));
+    }
 
     static class Solution {
         public boolean isSubsequence(String s, String t) {
