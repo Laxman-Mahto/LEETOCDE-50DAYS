@@ -1,6 +1,10 @@
 package day02;
 
 public class a125 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.isPalindrome("A man, a plan, a canal: Panama"));
+    }
 
     static class Solution {
         public boolean isPalindrome(String s) {
