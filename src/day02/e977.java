@@ -3,6 +3,11 @@ package day02;
 import java.util.Arrays;
 
 public class e977 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {-4, -1, 0, 3, 10};
+        System.out.println(Arrays.toString(s.sortedSquares(nums)));
+    }
 
     static class Solution {
         public int[] sortedSquares(int[] nums) {
