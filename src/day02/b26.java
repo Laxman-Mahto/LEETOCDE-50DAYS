@@ -1,6 +1,11 @@
 package day02;
 
 public class b26 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 1, 2};
+        System.out.println(s.removeDuplicates(nums));
+    }
 
     static class Solution {
         public int removeDuplicates(int[] nums) {
