@@ -1,6 +1,10 @@
 package day03;
 
 public class a58 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.lengthOfLastWord("Hello World"));
+    }
 
     static class Solution {
         public int lengthOfLastWord(String s) {
