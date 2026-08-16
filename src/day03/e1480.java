@@ -3,6 +3,11 @@ package day03;
 import java.util.Arrays;
 
 public class e1480 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 2, 3, 4};
+        System.out.println(Arrays.toString(s.runningSum(nums)));
+    }
 
     static class Solution {
         public int[] runningSum(int[] nums) {
