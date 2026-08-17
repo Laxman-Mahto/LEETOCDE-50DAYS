@@ -1,6 +1,10 @@
 package day04;
 
 public class c345 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.reverseVowels("hello"));
+    }
 
     static class Solution {
         public String reverseVowels(String s) {
