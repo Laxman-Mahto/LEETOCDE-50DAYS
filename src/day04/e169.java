@@ -1,6 +1,11 @@
 package day04;
 
 public class e169 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {3, 2, 3};
+        System.out.println(s.majorityElement(nums));
+    }
 
     static class Solution {
         public int majorityElement(int[] nums) {
