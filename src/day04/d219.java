@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class d219 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 2, 3, 1};
+        System.out.println(s.containsNearbyDuplicate(nums, 3));
+    }
 
     static class Solution {
         public boolean containsNearbyDuplicate(int[] nums, int k) {
