@@ -1,6 +1,11 @@
 package day05;
 
 public class e918 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, -2, 3, -2};
+        System.out.println(s.maxSubarraySumCircular(nums));
+    }
 
     static class Solution {
         public int maxSubarraySumCircular(int[] nums) {
