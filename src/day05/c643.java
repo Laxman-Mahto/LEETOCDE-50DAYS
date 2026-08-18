@@ -1,6 +1,11 @@
 package day05;
 
 public class c643 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 12, -5, -6, 50, 3};
+        System.out.println(s.findMaxAverage(nums, 4));
+    }
 
     static class Solution {
         public double findMaxAverage(int[] nums, int k) {
