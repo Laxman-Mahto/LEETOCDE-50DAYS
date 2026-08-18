@@ -70,3 +70,4 @@ Repository ready for daily practice updates.
 | Day 02 | Two Pointers Fundamentals | [x] Completed | LC 125, LC 26, LC 27, LC 283, LC 977 |
 | Day 03 | Strings & Prefix Sum Basics | [x] Completed | LC 58, LC 14, LC 724, LC 303, LC 1480 |
 | Day 04 | Two Pointers & Frequency Maps | [x] Completed | LC 167, LC 344, LC 345, LC 219, LC 169 |
+| Day 05 | Sliding Window Intro & Kadane's | [x] Completed | LC 121, LC 53, LC 643, LC 1876, LC 918 |
