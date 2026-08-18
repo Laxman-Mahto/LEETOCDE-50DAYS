@@ -1,6 +1,10 @@
 package day05;
 
 public class d1876 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.countGoodSubstrings("xyzzaz"));
+    }
 
     static class Solution {
         public int countGoodSubstrings(String s) {
