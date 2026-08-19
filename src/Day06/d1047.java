@@ -1,6 +1,10 @@
 package Day06;
 
 public class d1047 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.removeDuplicates("abbaca"));
+    }
     static class Solution {
         public String removeDuplicates(String s) {
             StringBuilder sb = new StringBuilder();
