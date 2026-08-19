@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class c682 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        String[] ops = {"5", "2", "C", "D", "+"};
+        System.out.println(s.calPoints(ops));
+    }
     static class Solution {
         public int calPoints(String[] operations) {
             List<Integer> record = new ArrayList<>();
