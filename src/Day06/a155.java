@@ -3,6 +3,16 @@ package Day06;
 import java.util.Stack;
 
 public class a155 {
+    public static void main(String[] args) {
+        MinStack minStack = new MinStack();
+        minStack.push(-2);
+        minStack.push(0);
+        minStack.push(-3);
+        System.out.println(minStack.getMin());
+        minStack.pop();
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
+    }
     static class MinStack {
         private Stack<Integer> stack;
         private Stack<Integer> minStack;
