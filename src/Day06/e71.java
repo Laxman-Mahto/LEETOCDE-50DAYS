@@ -3,6 +3,10 @@ package Day06;
 import java.util.Stack;
 
 public class e71 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.simplifyPath("/home//foo/"));
+    }
     static class Solution {
         public String simplifyPath(String path) {
             Stack<String> stack = new Stack<>();
