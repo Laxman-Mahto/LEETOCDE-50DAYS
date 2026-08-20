@@ -72,3 +72,4 @@ Repository ready for daily practice updates.
 | Day 04 | Two Pointers & Frequency Maps | [x] Completed | LC 167, LC 344, LC 345, LC 219, LC 169 |
 | Day 05 | Sliding Window Intro & Kadane's | [x] Completed | LC 121, LC 53, LC 643, LC 1876, LC 918 |
 | Day 06 | Stack Foundations | [x] Completed | LC 155, LC 150, LC 682, LC 1047, LC 71 |
+| Day 07 | Binary Search Fundamentals | [x] Completed | LC 704, LC 35, LC 74, LC 278, LC 367 |
