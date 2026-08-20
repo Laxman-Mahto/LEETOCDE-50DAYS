@@ -1,6 +1,10 @@
 package Day07;
 
 public class d278 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.firstBadVersion(5));
+    }
     static class VersionControl {
         boolean isBadVersion(int version) {
             return false;
