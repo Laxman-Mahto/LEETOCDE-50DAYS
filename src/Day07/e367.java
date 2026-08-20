@@ -1,6 +1,10 @@
 package Day07;
 
 public class e367 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.isPerfectSquare(16));
+    }
     static class Solution {
         public boolean isPerfectSquare(int num) {
             if (num < 1) {
