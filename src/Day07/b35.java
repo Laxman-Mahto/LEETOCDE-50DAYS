@@ -1,6 +1,11 @@
 package Day07;
 
 public class b35 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 3, 5, 6};
+        System.out.println(s.searchInsert(nums, 5));
+    }
     static class Solution {
         public int searchInsert(int[] nums, int target) {
             int left = 0;
