@@ -1,6 +1,18 @@
 package Day08;
 
 public class e203 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(6);
+        ListNode res = s.removeElements(head, 6);
+        while (res != null) {
+            System.out.print(res.val + " ");
+            res = res.next;
+        }
+        System.out.println();
+    }
     static class ListNode {
         int val;
         ListNode next;
