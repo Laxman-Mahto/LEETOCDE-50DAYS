@@ -1,6 +1,17 @@
 package Day08;
 
 public class a206 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        ListNode res = s.reverseList(head);
+        while (res != null) {
+            System.out.print(res.val + " ");
+            res = res.next;
+        }
+        System.out.println();
+    }
     static class ListNode {
         int val;
         ListNode next;
