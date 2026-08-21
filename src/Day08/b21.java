@@ -1,6 +1,19 @@
 package Day08;
 
 public class b21 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        ListNode l1 = new ListNode(1);
+        l1.next = new ListNode(2);
+        ListNode l2 = new ListNode(1);
+        l2.next = new ListNode(3);
+        ListNode res = s.mergeTwoLists(l1, l2);
+        while (res != null) {
+            System.out.print(res.val + " ");
+            res = res.next;
+        }
+        System.out.println();
+    }
     static class ListNode {
         int val;
         ListNode next;
