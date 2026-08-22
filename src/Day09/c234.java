@@ -1,6 +1,13 @@
 package Day09;
 
 public class c234 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(1);
+        System.out.println(s.isPalindrome(head));
+    }
     static class ListNode {
         int val;
         ListNode next;
