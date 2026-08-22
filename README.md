@@ -74,3 +74,4 @@ Repository ready for daily practice updates.
 | Day 06 | Stack Foundations | [x] Completed | LC 155, LC 150, LC 682, LC 1047, LC 71 |
 | Day 07 | Binary Search Fundamentals | [x] Completed | LC 704, LC 35, LC 74, LC 278, LC 367 |
 | Day 08 | Singly Linked List Basics | [x] Completed | LC 206, LC 21, LC 141, LC 876, LC 203 |
+| Day 09 | Fast & Slow Pointers & Manipulation | [x] Completed | LC 142, LC 19, LC 234, LC 143, LC 328 |
