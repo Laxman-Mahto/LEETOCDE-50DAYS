@@ -1,6 +1,12 @@
 package Day10;
 
 public class c48 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        s.rotate(matrix);
+        System.out.println(java.util.Arrays.deepToString(matrix));
+    }
     static class Solution {
         public void rotate(int[][] matrix) {
             int n = matrix.length;
