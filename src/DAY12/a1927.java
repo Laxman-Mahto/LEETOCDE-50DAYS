@@ -55,4 +55,4 @@ public class a1927 {
                     != 9 * (rightQ - leftQ) / 2;
         }
     }
-
+}
