@@ -1,6 +1,12 @@
 package Day10;
 
 public class b73 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] matrix = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+        s.setZeroes(matrix);
+        System.out.println(java.util.Arrays.deepToString(matrix));
+    }
     static class Solution {
         public void setZeroes(int[][] matrix) {
             int m = matrix.length;
