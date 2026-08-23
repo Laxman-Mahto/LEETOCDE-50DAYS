@@ -1,6 +1,12 @@
 package Day10;
 
 public class a867 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}};
+        int[][] res = s.transpose(matrix);
+        System.out.println(java.util.Arrays.deepToString(res));
+    }
     static class Solution {
         public int[][] transpose(int[][] matrix) {
             int m = matrix.length;
