@@ -1,6 +1,11 @@
 package Day10;
 
 public class e59 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] res = s.generateMatrix(3);
+        System.out.println(java.util.Arrays.deepToString(res));
+    }
     static class Solution {
         public int[][] generateMatrix(int n) {
             int[][] matrix = new int[n][n];
