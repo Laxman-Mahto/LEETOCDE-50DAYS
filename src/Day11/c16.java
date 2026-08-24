@@ -3,6 +3,11 @@ package Day11;
 import java.util.Arrays;
 
 public class c16 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {-1, 2, 1, -4};
+        System.out.println(s.threeSumClosest(nums, 1));
+    }
     static class Solution {
         public int threeSumClosest(int[] nums, int target) {
             Arrays.sort(nums);
