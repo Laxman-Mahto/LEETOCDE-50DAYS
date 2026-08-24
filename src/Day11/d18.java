@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class d18 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 0, -1, 0, -2, 2};
+        System.out.println(s.fourSum(nums, 0));
+    }
     static class Solution {
         public List<List<Integer>> fourSum(int[] nums, int target) {
             List<List<Integer>> result = new ArrayList<>();
