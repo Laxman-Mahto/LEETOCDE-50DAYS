@@ -77,3 +77,4 @@ Repository ready for daily practice updates.
 | Day 09 | Fast & Slow Pointers & Manipulation | [x] Completed | LC 142, LC 19, LC 234, LC 143, LC 328 |
 | Day 10 | Matrix & Simulation | [x] Completed | LC 867, LC 73, LC 48, LC 54, LC 59 |
 | Day 11 | Two Pointers Intermediate | [x] Completed | LC 15, LC 11, LC 16, LC 18, LC 80 |
+| Day 12 | Sliding Window Intermediate | [x] Completed | LC 3, LC 209, LC 424, LC 1004, LC 567 |
