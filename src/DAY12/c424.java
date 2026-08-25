@@ -1,6 +1,10 @@
 package DAY12;
 
 public class c424 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.characterReplacement("ABAB", 2));
+    }
     static class Solution {
         public int characterReplacement(String s, int k) {
             int[] count = new int[26];
