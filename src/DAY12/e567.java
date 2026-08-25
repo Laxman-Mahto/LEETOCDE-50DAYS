@@ -1,6 +1,10 @@
 package DAY12;
 
 public class e567 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.checkInclusion("ab", "eidbaooo"));
+    }
     static class Solution {
         public boolean checkInclusion(String s1, String s2) {
             if (s1.length() > s2.length()) {
