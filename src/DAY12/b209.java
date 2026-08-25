@@ -1,6 +1,11 @@
 package DAY12;
 
 public class b209 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {2, 3, 1, 2, 4, 3};
+        System.out.println(s.minSubArrayLen(7, nums));
+    }
     static class Solution {
         public int minSubArrayLen(int target, int[] nums) {
             int minLen = Integer.MAX_VALUE;
