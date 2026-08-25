@@ -38,4 +38,4 @@ public class A3718 {
             return multiple;
         }
     }
-}0
+}
