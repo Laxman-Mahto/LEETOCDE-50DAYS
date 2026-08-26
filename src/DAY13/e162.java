@@ -1,6 +1,11 @@
 package DAY13;
 
 public class e162 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 2, 3, 1};
+        System.out.println(s.findPeakElement(nums));
+    }
     static class Solution {
         public int findPeakElement(int[] nums) {
             int left = 0;
