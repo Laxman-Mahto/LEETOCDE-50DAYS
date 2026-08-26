@@ -1,6 +1,12 @@
 package DAY13;
 
 public class d34 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {5, 7, 7, 8, 8, 10};
+        int[] res = s.searchRange(nums, 8);
+        System.out.println(java.util.Arrays.toString(res));
+    }
     static class Solution {
         public int[] searchRange(int[] nums, int target) {
             int[] result = new int[]{-1, -1};
