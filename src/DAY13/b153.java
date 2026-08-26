@@ -1,6 +1,11 @@
 package DAY13;
 
 public class b153 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {3, 4, 5, 1, 2};
+        System.out.println(s.findMin(nums));
+    }
     static class Solution {
         public int findMin(int[] nums) {
             int left = 0;
