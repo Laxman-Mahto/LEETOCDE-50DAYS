@@ -1,6 +1,11 @@
 package DAY13;
 
 public class c875 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] piles = {3, 6, 7, 11};
+        System.out.println(s.minEatingSpeed(piles, 8));
+    }
     static class Solution {
         public int minEatingSpeed(int[] piles, int h) {
             int left = 1;
