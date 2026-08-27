@@ -5,6 +5,13 @@ import java.util.Map;
 import java.util.Stack;
 
 public class b496 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums1 = {4, 1, 2};
+        int[] nums2 = {1, 3, 4, 2};
+        int[] res = s.nextGreaterElement(nums1, nums2);
+        System.out.println(java.util.Arrays.toString(res));
+    }
     static class Solution {
         public int[] nextGreaterElement(int[] nums1, int[] nums2) {
             Map<Integer, Integer> map = new HashMap<>();
