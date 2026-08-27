@@ -3,6 +3,12 @@ package DAY14;
 import java.util.Stack;
 
 public class a739 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] temps = {73, 74, 75, 71, 69, 72, 76, 73};
+        int[] res = s.dailyTemperatures(temps);
+        System.out.println(java.util.Arrays.toString(res));
+    }
     static class Solution {
         public int[] dailyTemperatures(int[] temperatures) {
             int n = temperatures.length;
