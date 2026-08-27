@@ -3,6 +3,12 @@ package DAY14;
 import java.util.Arrays;
 
 public class e853 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] pos = {10, 8, 0, 5, 3};
+        int[] speed = {2, 4, 1, 1, 3};
+        System.out.println(s.carFleet(12, pos, speed));
+    }
     static class Solution {
         public int carFleet(int target, int[] position, int[] speed) {
             int n = position.length;
