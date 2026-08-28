@@ -80,3 +80,4 @@ Repository ready for daily practice updates.
 | Day 12 | Sliding Window Intermediate | [x] Completed | LC 3, LC 209, LC 424, LC 1004, LC 567 |
 | Day 13 | Binary Search on Answer & Rotated | [x] Completed | LC 33, LC 153, LC 875, LC 34, LC 162 |
 | Day 14 | Monotonic Stack | [x] Completed | LC 739, LC 496, LC 503, LC 901, LC 853 |
+| Day 15 | Binary Trees - DFS & Properties | [x] Completed | LC 226, LC 100, LC 101, LC 110, LC 543 |
