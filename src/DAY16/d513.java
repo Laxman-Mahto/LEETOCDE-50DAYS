@@ -4,6 +4,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class d513 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode root = new TreeNode(2);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(3);
+        System.out.println(s.findBottomLeftValue(root));
+    }
     static class TreeNode {
         int val;
         TreeNode left;
