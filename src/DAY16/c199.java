@@ -6,6 +6,13 @@ import java.util.List;
 import java.util.Queue;
 
 public class c199 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        System.out.println(s.rightSideView(root));
+    }
     static class TreeNode {
         int val;
         TreeNode left;
