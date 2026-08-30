@@ -1,6 +1,13 @@
 package day17;
 
 public class e114 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        s.flatten(root);
+        System.out.println(root.val);
+    }
     static class TreeNode {
         int val;
         TreeNode left;
