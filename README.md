@@ -82,3 +82,4 @@ Repository ready for daily practice updates.
 | Day 14 | Monotonic Stack | [x] Completed | LC 739, LC 496, LC 503, LC 901, LC 853 |
 | Day 15 | Binary Trees - DFS & Properties | [x] Completed | LC 226, LC 100, LC 101, LC 110, LC 543 |
 | Day 16 | Binary Trees - BFS & Level Order | [x] Completed | LC 102, LC 103, LC 199, LC 513, LC 637 |
+| Day 17 | Binary Trees - Paths & Construction | [x] Completed | LC 112, LC 113, LC 236, LC 105, LC 114 |
