@@ -1,6 +1,16 @@
 package day17;
 
 public class c236 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode root = new TreeNode(3);
+        TreeNode p = new TreeNode(5);
+        TreeNode q = new TreeNode(1);
+        root.left = p;
+        root.right = q;
+        TreeNode res = s.lowestCommonAncestor(root, p, q);
+        System.out.println(res.val);
+    }
     static class TreeNode {
         int val;
         TreeNode left;
