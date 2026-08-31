@@ -83,3 +83,4 @@ Repository ready for daily practice updates.
 | Day 15 | Binary Trees - DFS & Properties | [x] Completed | LC 226, LC 100, LC 101, LC 110, LC 543 |
 | Day 16 | Binary Trees - BFS & Level Order | [x] Completed | LC 102, LC 103, LC 199, LC 513, LC 637 |
 | Day 17 | Binary Trees - Paths & Construction | [x] Completed | LC 112, LC 113, LC 236, LC 105, LC 114 |
+| Day 18 | Binary Search Trees (BST) | [x] Completed | LC 700, LC 701, LC 98, LC 230, LC 235 |
