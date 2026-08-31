@@ -3,6 +3,13 @@ package day18;
 import java.util.Stack;
 
 public class d230 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(4);
+        System.out.println(s.kthSmallest(root, 1));
+    }
     static class TreeNode {
         int val;
         TreeNode left;
