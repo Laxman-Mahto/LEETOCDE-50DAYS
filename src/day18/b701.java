@@ -1,6 +1,14 @@
 package day18;
 
 public class b701 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode root = new TreeNode(4);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(7);
+        TreeNode res = s.insertIntoBST(root, 5);
+        System.out.println(res.val);
+    }
     static class TreeNode {
         int val;
         TreeNode left;
