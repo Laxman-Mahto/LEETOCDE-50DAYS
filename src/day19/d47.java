@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class d47 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 1, 2};
+        System.out.println(s.permuteUnique(nums));
+    }
     static class Solution {
         public List<List<Integer>> permuteUnique(int[] nums) {
             List<List<Integer>> result = new ArrayList<>();
