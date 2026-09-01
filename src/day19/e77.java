@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class e77 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.combine(4, 2));
+    }
     static class Solution {
         public List<List<Integer>> combine(int n, int k) {
             List<List<Integer>> result = new ArrayList<>();
