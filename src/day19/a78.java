@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class a78 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 2, 3};
+        System.out.println(s.subsets(nums));
+    }
     static class Solution {
         public List<List<Integer>> subsets(int[] nums) {
             List<List<Integer>> result = new ArrayList<>();
