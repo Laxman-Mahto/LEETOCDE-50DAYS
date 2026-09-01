@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class b90 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 2, 2};
+        System.out.println(s.subsetsWithDup(nums));
+    }
     static class Solution {
         public List<List<Integer>> subsetsWithDup(int[] nums) {
             List<List<Integer>> result = new ArrayList<>();
