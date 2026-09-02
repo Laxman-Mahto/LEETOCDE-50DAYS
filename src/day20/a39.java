@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class a39 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] candidates = {2, 3, 6, 7};
+        System.out.println(s.combinationSum(candidates, 7));
+    }
     static class Solution {
         public List<List<Integer>> combinationSum(int[] candidates, int target) {
             List<List<Integer>> result = new ArrayList<>();
