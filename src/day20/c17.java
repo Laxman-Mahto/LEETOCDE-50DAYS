@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class c17 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.letterCombinations("23"));
+    }
     static class Solution {
         private static final String[] MAPPING = {
             "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"
