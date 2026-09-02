@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class e131 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.partition("aab"));
+    }
     static class Solution {
         public List<List<String>> partition(String s) {
             List<List<String>> result = new ArrayList<>();
