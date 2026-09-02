@@ -1,6 +1,11 @@
 package day20;
 
 public class d79 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        char[][] board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
+        System.out.println(s.exist(board, "ABCCED"));
+    }
     static class Solution {
         public boolean exist(char[][] board, String word) {
             int m = board.length;
