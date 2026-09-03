@@ -3,6 +3,12 @@ package day21;
 import java.util.PriorityQueue;
 
 public class d973 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] points = {{1, 3}, {-2, 2}};
+        int[][] res = s.kClosest(points, 1);
+        System.out.println(java.util.Arrays.deepToString(res));
+    }
     static class Solution {
         public int[][] kClosest(int[][] points, int k) {
             PriorityQueue<int[]> maxHeap = new PriorityQueue<>(
