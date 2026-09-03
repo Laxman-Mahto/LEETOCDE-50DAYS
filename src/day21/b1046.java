@@ -3,6 +3,11 @@ package day21;
 import java.util.PriorityQueue;
 
 public class b1046 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] stones = {2, 7, 4, 1, 8, 1};
+        System.out.println(s.lastStoneWeight(stones));
+    }
     static class Solution {
         public int lastStoneWeight(int[] stones) {
             PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
