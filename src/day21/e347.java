@@ -5,6 +5,12 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 public class e347 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 1, 1, 2, 2, 3};
+        int[] res = s.topKFrequent(nums, 2);
+        System.out.println(java.util.Arrays.toString(res));
+    }
     static class Solution {
         public int[] topKFrequent(int[] nums, int k) {
             Map<Integer, Integer> map = new HashMap<>();
