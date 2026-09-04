@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class d763 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.partitionLabels("ababcbacadefegdehijhklij"));
+    }
     static class Solution {
         public List<Integer> partitionLabels(String s) {
             int[] last = new int[26];
