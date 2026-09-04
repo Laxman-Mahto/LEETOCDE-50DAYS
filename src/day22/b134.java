@@ -1,6 +1,12 @@
 package day22;
 
 public class b134 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] gas = {1, 2, 3, 4, 5};
+        int[] cost = {3, 4, 5, 1, 2};
+        System.out.println(s.canCompleteCircuit(gas, cost));
+    }
     static class Solution {
         public int canCompleteCircuit(int[] gas, int[] cost) {
             int totalTank = 0;
