@@ -1,6 +1,11 @@
 package day22;
 
 public class e860 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] bills = {5, 5, 5, 10, 20};
+        System.out.println(s.lemonadeChange(bills));
+    }
     static class Solution {
         public boolean lemonadeChange(int[] bills) {
             int five = 0;
