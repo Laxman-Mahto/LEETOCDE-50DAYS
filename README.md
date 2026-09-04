@@ -87,3 +87,4 @@ Repository ready for daily practice updates.
 | Day 19 | Recursion & Backtracking I | [x] Completed | LC 78, LC 90, LC 46, LC 47, LC 77 |
 | Day 20 | Backtracking II | [x] Completed | LC 39, LC 40, LC 17, LC 79, LC 131 |
 | Day 21 | Heap & Priority Queue | [x] Completed | LC 215, LC 1046, LC 703, LC 973, LC 347 |
+| Day 22 | Greedy Algorithms | [x] Completed | LC 45, LC 134, LC 605, LC 763, LC 860 |
