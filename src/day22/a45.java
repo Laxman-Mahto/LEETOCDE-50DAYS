@@ -1,6 +1,11 @@
 package day22;
 
 public class a45 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {2, 3, 1, 1, 4};
+        System.out.println(s.jump(nums));
+    }
     static class Solution {
         public int jump(int[] nums) {
             int jumps = 0;
