@@ -3,6 +3,11 @@ package day23;
 import java.util.Arrays;
 
 public class e1288 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] intervals = {{1, 4}, {3, 6}, {2, 8}};
+        System.out.println(s.removeCoveredIntervals(intervals));
+    }
     static class Solution {
         public int removeCoveredIntervals(int[][] intervals) {
             Arrays.sort(intervals, (a, b) -> {
