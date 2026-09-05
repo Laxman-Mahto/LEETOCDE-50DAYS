@@ -3,6 +3,11 @@ package day23;
 import java.util.Arrays;
 
 public class c435 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] intervals = {{1, 2}, {2, 3}, {3, 4}, {1, 3}};
+        System.out.println(s.eraseOverlapIntervals(intervals));
+    }
     static class Solution {
         public int eraseOverlapIntervals(int[][] intervals) {
             if (intervals.length == 0) {
