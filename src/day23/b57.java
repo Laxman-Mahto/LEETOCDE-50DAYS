@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class b57 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] intervals = {{1, 3}, {6, 9}};
+        int[] newInterval = {2, 5};
+        int[][] res = s.insert(intervals, newInterval);
+        System.out.println(java.util.Arrays.deepToString(res));
+    }
     static class Solution {
         public int[][] insert(int[][] intervals, int[] newInterval) {
             List<int[]> result = new ArrayList<>();
