@@ -3,6 +3,11 @@ package day23;
 import java.util.Arrays;
 
 public class d452 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] points = {{10, 16}, {2, 8}, {1, 6}, {7, 12}};
+        System.out.println(s.findMinArrowShots(points));
+    }
     static class Solution {
         public int findMinArrowShots(int[][] points) {
             if (points.length == 0) {
