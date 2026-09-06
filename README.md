@@ -89,3 +89,4 @@ Repository ready for daily practice updates.
 | Day 21 | Heap & Priority Queue | [x] Completed | LC 215, LC 1046, LC 703, LC 973, LC 347 |
 | Day 22 | Greedy Algorithms | [x] Completed | LC 45, LC 134, LC 605, LC 763, LC 860 |
 | Day 23 | Intervals | [x] Completed | LC 56, LC 57, LC 435, LC 452, LC 1288 |
+| Day 24 | Graphs - BFS, DFS & Flood Fill | [x] Completed | LC 200, LC 695, LC 733, LC 133, LC 417 |
