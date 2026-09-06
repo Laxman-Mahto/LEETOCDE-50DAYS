@@ -6,6 +6,15 @@ import java.util.List;
 import java.util.Map;
 
 public class d133 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        Node n1 = new Node(1);
+        Node n2 = new Node(2);
+        n1.neighbors.add(n2);
+        n2.neighbors.add(n1);
+        Node clone = s.cloneGraph(n1);
+        System.out.println(clone.val);
+    }
     static class Node {
         public int val;
         public List<Node> neighbors;
