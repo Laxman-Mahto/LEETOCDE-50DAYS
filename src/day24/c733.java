@@ -1,6 +1,12 @@
 package day24;
 
 public class c733 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] image = {{1, 1, 1}, {1, 1, 0}, {1, 0, 1}};
+        int[][] res = s.floodFill(image, 1, 1, 2);
+        System.out.println(java.util.Arrays.deepToString(res));
+    }
     static class Solution {
         public int[][] floodFill(int[][] image, int sr, int sc, int color) {
             int original = image[sr][sc];
