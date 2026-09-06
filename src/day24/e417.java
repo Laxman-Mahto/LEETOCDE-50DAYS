@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class e417 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] heights = {{1, 2, 2}, {3, 2, 3}, {2, 4, 5}};
+        System.out.println(s.pacificAtlantic(heights));
+    }
     static class Solution {
         public List<List<Integer>> pacificAtlantic(int[][] heights) {
             List<List<Integer>> result = new ArrayList<>();
