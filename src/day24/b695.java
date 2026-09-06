@@ -1,6 +1,11 @@
 package day24;
 
 public class b695 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] grid = {{0, 0, 1, 0}, {0, 0, 1, 1}, {0, 0, 0, 1}};
+        System.out.println(s.maxAreaOfIsland(grid));
+    }
     static class Solution {
         public int maxAreaOfIsland(int[][] grid) {
             int maxArea = 0;
