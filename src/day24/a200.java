@@ -1,6 +1,11 @@
 package day24;
 
 public class a200 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        char[][] grid = {{'1', '1', '0'}, {'1', '1', '0'}, {'0', '0', '1'}};
+        System.out.println(s.numIslands(grid));
+    }
     static class Solution {
         public int numIslands(char[][] grid) {
             if (grid == null || grid.length == 0) {
