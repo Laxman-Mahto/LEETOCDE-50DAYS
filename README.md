@@ -90,3 +90,4 @@ Repository ready for daily practice updates.
 | Day 22 | Greedy Algorithms | [x] Completed | LC 45, LC 134, LC 605, LC 763, LC 860 |
 | Day 23 | Intervals | [x] Completed | LC 56, LC 57, LC 435, LC 452, LC 1288 |
 | Day 24 | Graphs - BFS, DFS & Flood Fill | [x] Completed | LC 200, LC 695, LC 733, LC 133, LC 417 |
+| Day 25 | Graphs - Topological Sort & Bipartite | [x] Completed | LC 207, LC 210, LC 802, LC 785, LC 994 |
