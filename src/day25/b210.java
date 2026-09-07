@@ -6,6 +6,12 @@ import java.util.List;
 import java.util.Queue;
 
 public class b210 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] pre = {{1, 0}};
+        int[] res = s.findOrder(2, pre);
+        System.out.println(java.util.Arrays.toString(res));
+    }
     static class Solution {
         public int[] findOrder(int numCourses, int[][] prerequisites) {
             List<List<Integer>> adj = new ArrayList<>();
