@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class c802 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] graph = {{1, 2}, {2, 3}, {5}, {0}, {5}, {}, {}};
+        System.out.println(s.eventualSafeNodes(graph));
+    }
     static class Solution {
         public List<Integer> eventualSafeNodes(int[][] graph) {
             int n = graph.length;
