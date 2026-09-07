@@ -4,6 +4,11 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class d785 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] graph = {{1, 3}, {0, 2}, {1, 3}, {0, 2}};
+        System.out.println(s.isBipartite(graph));
+    }
     static class Solution {
         public boolean isBipartite(int[][] graph) {
             int n = graph.length;
