@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Queue;
 
 public class a207 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] pre = {{1, 0}};
+        System.out.println(s.canFinish(2, pre));
+    }
     static class Solution {
         public boolean canFinish(int numCourses, int[][] prerequisites) {
             List<List<Integer>> adj = new ArrayList<>();
