@@ -1,6 +1,14 @@
 package day26;
 
 public class d211 {
+    public static void main(String[] args) {
+        WordDictionary dict = new WordDictionary();
+        dict.addWord("bad");
+        dict.addWord("dad");
+        dict.addWord("mad");
+        System.out.println(dict.search("pad"));
+        System.out.println(dict.search(".ad"));
+    }
     static class WordDictionary {
         private WordNode root;
 
