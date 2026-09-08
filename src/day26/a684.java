@@ -1,6 +1,11 @@
 package day26;
 
 public class a684 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] edges = {{1, 2}, {1, 3}, {2, 3}};
+        System.out.println(java.util.Arrays.toString(s.findRedundantConnection(edges)));
+    }
     static class Solution {
         public int[] findRedundantConnection(int[][] edges) {
             int n = edges.length;
