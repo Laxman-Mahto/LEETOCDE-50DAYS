@@ -1,6 +1,11 @@
 package day27;
 
 public class d213 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {2, 3, 2};
+        System.out.println(s.rob(nums));
+    }
     static class Solution {
         public int rob(int[] nums) {
             if (nums.length == 1) {
