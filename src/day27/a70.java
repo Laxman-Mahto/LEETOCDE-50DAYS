@@ -1,6 +1,10 @@
 package day27;
 
 public class a70 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.climbStairs(3));
+    }
     static class Solution {
         public int climbStairs(int n) {
             if (n <= 2) {
