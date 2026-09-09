@@ -1,6 +1,10 @@
 package day27;
 
 public class e91 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.numDecodings("226"));
+    }
     static class Solution {
         public int numDecodings(String s) {
             if (s == null || s.length() == 0 || s.charAt(0) == '0') {
