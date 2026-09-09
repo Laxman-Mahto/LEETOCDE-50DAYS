@@ -1,6 +1,11 @@
 package day27;
 
 public class b746 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] cost = {10, 15, 20};
+        System.out.println(s.minCostClimbingStairs(cost));
+    }
     static class Solution {
         public int minCostClimbingStairs(int[] cost) {
             int first = cost[0];
