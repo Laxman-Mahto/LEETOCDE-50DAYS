@@ -3,6 +3,11 @@ package day28;
 import java.util.Arrays;
 
 public class a322 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] coins = {1, 2, 5};
+        System.out.println(s.coinChange(coins, 11));
+    }
     static class Solution {
         public int coinChange(int[] coins, int amount) {
             int[] dp = new int[amount + 1];
