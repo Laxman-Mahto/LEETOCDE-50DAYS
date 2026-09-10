@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Set;
 
 public class d139 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.wordBreak("leetcode", java.util.Arrays.asList("leet", "code")));
+    }
     static class Solution {
         public boolean wordBreak(String s, List<String> wordDict) {
             Set<String> wordSet = new HashSet<>(wordDict);
