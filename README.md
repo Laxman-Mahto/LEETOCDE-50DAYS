@@ -93,3 +93,4 @@ Repository ready for daily practice updates.
 | Day 25 | Graphs - Topological Sort & Bipartite | [x] Completed | LC 207, LC 210, LC 802, LC 785, LC 994 |
 | Day 26 | Disjoint Set Union & Trie | [x] Completed | LC 684, LC 547, LC 208, LC 211, LC 1319 |
 | Day 27 | Dynamic Programming - 1D Basics | [x] Completed | LC 70, LC 746, LC 198, LC 213, LC 91 |
+| Day 28 | Dynamic Programming - Knapsack & LIS | [x] Completed | LC 322, LC 518, LC 300, LC 139, LC 416 |
