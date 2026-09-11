@@ -1,6 +1,11 @@
 package day29;
 
 public class e221 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        char[][] matrix = {{'1', '0', '1'}, {'1', '1', '1'}};
+        System.out.println(s.maximalSquare(matrix));
+    }
     static class Solution {
         public int maximalSquare(char[][] matrix) {
             if (matrix == null || matrix.length == 0) {
