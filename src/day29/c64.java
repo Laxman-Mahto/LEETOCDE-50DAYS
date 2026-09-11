@@ -1,6 +1,11 @@
 package day29;
 
 public class c64 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
+        System.out.println(s.minPathSum(grid));
+    }
     static class Solution {
         public int minPathSum(int[][] grid) {
             int m = grid.length;
