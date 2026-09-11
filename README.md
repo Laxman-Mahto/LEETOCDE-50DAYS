@@ -94,3 +94,4 @@ Repository ready for daily practice updates.
 | Day 26 | Disjoint Set Union & Trie | [x] Completed | LC 684, LC 547, LC 208, LC 211, LC 1319 |
 | Day 27 | Dynamic Programming - 1D Basics | [x] Completed | LC 70, LC 746, LC 198, LC 213, LC 91 |
 | Day 28 | Dynamic Programming - Knapsack & LIS | [x] Completed | LC 322, LC 518, LC 300, LC 139, LC 416 |
+| Day 29 | Dynamic Programming - 2D Grid | [x] Completed | LC 62, LC 63, LC 64, LC 120, LC 221 |
