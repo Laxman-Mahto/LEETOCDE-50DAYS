@@ -1,6 +1,11 @@
 package day29;
 
 public class b63 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] obstacleGrid = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
+        System.out.println(s.uniquePathsWithObstacles(obstacleGrid));
+    }
     static class Solution {
         public int uniquePathsWithObstacles(int[][] obstacleGrid) {
             int n = obstacleGrid[0].length;
