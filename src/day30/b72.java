@@ -1,6 +1,10 @@
 package day30;
 
 public class b72 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.minDistance("horse", "ros"));
+    }
     static class Solution {
         public int minDistance(String word1, String word2) {
             int m = word1.length();
