@@ -1,6 +1,10 @@
 package day30;
 
 public class d5 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.longestPalindrome("babad"));
+    }
     static class Solution {
         public String longestPalindrome(String s) {
             if (s == null || s.length() < 1) {
