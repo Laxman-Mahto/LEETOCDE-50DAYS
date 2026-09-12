@@ -1,6 +1,10 @@
 package day30;
 
 public class a1143 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.longestCommonSubsequence("abcde", "ace"));
+    }
     static class Solution {
         public int longestCommonSubsequence(String text1, String text2) {
             int m = text1.length();
