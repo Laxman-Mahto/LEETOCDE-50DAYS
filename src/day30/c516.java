@@ -1,6 +1,10 @@
 package day30;
 
 public class c516 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.longestPalindromeSubseq("bbbab"));
+    }
     static class Solution {
         public int longestPalindromeSubseq(String s) {
             int n = s.length();
