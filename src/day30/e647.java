@@ -1,6 +1,10 @@
 package day30;
 
 public class e647 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.countSubstrings("aaa"));
+    }
     static class Solution {
         public int countSubstrings(String s) {
             int count = 0;
