@@ -1,6 +1,10 @@
 package day31;
 
 public class d190 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.reverseBits(43261596));
+    }
     static class Solution {
         public int reverseBits(int n) {
             int result = 0;
