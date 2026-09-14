@@ -1,6 +1,10 @@
 package day32;
 
 public class d202 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.isHappy(19));
+    }
     static class Solution {
         public boolean isHappy(int n) {
             int slow = n;
