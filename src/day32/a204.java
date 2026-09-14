@@ -1,6 +1,10 @@
 package day32;
 
 public class a204 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.countPrimes(10));
+    }
     static class Solution {
         public int countPrimes(int n) {
             if (n <= 2) {
