@@ -1,6 +1,10 @@
 package day32;
 
 public class c172 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.trailingZeroes(5));
+    }
     static class Solution {
         public int trailingZeroes(int n) {
             int count = 0;
