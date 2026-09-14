@@ -1,6 +1,10 @@
 package day32;
 
 public class b50 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.myPow(2.0, 10));
+    }
     static class Solution {
         public double myPow(double x, int n) {
             long N = n;
