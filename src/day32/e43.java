@@ -1,6 +1,10 @@
 package day32;
 
 public class e43 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.multiply("2", "3"));
+    }
     static class Solution {
         public String multiply(String num1, String num2) {
             if (num1.equals("0") || num2.equals("0")) {
