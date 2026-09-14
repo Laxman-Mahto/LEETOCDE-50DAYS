@@ -97,3 +97,4 @@ Repository ready for daily practice updates.
 | Day 29 | Dynamic Programming - 2D Grid | [x] Completed | LC 62, LC 63, LC 64, LC 120, LC 221 |
 | Day 30 | Dynamic Programming - Strings & Ranges | [x] Completed | LC 1143, LC 72, LC 516, LC 5, LC 647 |
 | Day 31 | Bit Manipulation | [x] Completed | LC 136, LC 191, LC 338, LC 190, LC 268 |
+| Day 32 | Math & Number Theory | [x] Completed | LC 204, LC 50, LC 172, LC 202, LC 43 |
