@@ -7,6 +7,10 @@ import java.util.Queue;
 import java.util.Set;
 
 public class d127 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.ladderLength("hit", "cog", java.util.Arrays.asList("hot", "dot", "dog", "lot", "log", "cog")));
+    }
     static class Solution {
         public int ladderLength(String beginWord, String endWord, List<String> wordList) {
             Set<String> dict = new HashSet<>(wordList);
