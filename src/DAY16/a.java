@@ -1,4 +1,4 @@
 package DAY16;
 
-public class a {
+public class a {a
 }
