@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class a743 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] times = {{2, 1, 1}, {2, 3, 1}, {3, 4, 1}};
+        System.out.println(s.networkDelayTime(times, 4, 2));
+    }
     static class Solution {
         public int networkDelayTime(int[][] times, int n, int k) {
             List<List<int[]>> adj = new ArrayList<>();
