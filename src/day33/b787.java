@@ -3,6 +3,11 @@ package day33;
 import java.util.Arrays;
 
 public class b787 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] flights = {{0, 1, 100}, {1, 2, 100}, {2, 0, 100}, {1, 3, 600}, {2, 3, 200}};
+        System.out.println(s.findCheapestPrice(4, flights, 0, 3, 1));
+    }
     static class Solution {
         public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
             int[] dist = new int[n];
