@@ -3,6 +3,11 @@ package day34;
 import java.util.Stack;
 
 public class b84 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] heights = {2, 1, 5, 6, 2, 3};
+        System.out.println(s.largestRectangleArea(heights));
+    }
     static class Solution {
         public int largestRectangleArea(int[] heights) {
             int n = heights.length;
