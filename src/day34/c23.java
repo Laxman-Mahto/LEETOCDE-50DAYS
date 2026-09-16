@@ -3,6 +3,20 @@ package day34;
 import java.util.PriorityQueue;
 
 public class c23 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        ListNode l1 = new ListNode(1);
+        l1.next = new ListNode(4);
+        ListNode l2 = new ListNode(2);
+        l2.next = new ListNode(3);
+        ListNode[] lists = {l1, l2};
+        ListNode res = s.mergeKLists(lists);
+        while (res != null) {
+            System.out.print(res.val + " ");
+            res = res.next;
+        }
+        System.out.println();
+    }
     static class ListNode {
         int val;
         ListNode next;
