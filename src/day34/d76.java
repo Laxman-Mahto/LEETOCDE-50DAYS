@@ -1,6 +1,10 @@
 package day34;
 
 public class d76 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.minWindow("ADOBECODEBANC", "ABC"));
+    }
     static class Solution {
         public String minWindow(String s, String t) {
             if (s.length() < t.length()) {
