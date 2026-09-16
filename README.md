@@ -99,3 +99,4 @@ Repository ready for daily practice updates.
 | Day 31 | Bit Manipulation | [x] Completed | LC 136, LC 191, LC 338, LC 190, LC 268 |
 | Day 32 | Math & Number Theory | [x] Completed | LC 204, LC 50, LC 172, LC 202, LC 43 |
 | Day 33 | Shortest Paths & Graph Algorithms | [x] Completed | LC 743, LC 787, LC 1584, LC 127, LC 841 |
+| Day 34 | Classic Hard & Advanced Structures | [x] Completed | LC 42, LC 84, LC 23, LC 76, LC 295 |
