@@ -1,6 +1,12 @@
 package day35;
 
 public class d4 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums1 = {1, 3};
+        int[] nums2 = {2};
+        System.out.println(s.findMedianSortedArrays(nums1, nums2));
+    }
     static class Solution {
         public double findMedianSortedArrays(int[] nums1, int[] nums2) {
             if (nums1.length > nums2.length) {
