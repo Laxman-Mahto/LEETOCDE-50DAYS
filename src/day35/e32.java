@@ -3,6 +3,10 @@ package day35;
 import java.util.Stack;
 
 public class e32 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.longestValidParentheses("(()"));
+    }
     static class Solution {
         public int longestValidParentheses(String s) {
             Stack<Integer> stack = new Stack<>();
