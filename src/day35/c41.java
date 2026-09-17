@@ -1,6 +1,11 @@
 package day35;
 
 public class c41 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 2, 0};
+        System.out.println(s.firstMissingPositive(nums));
+    }
     static class Solution {
         public int firstMissingPositive(int[] nums) {
             int n = nums.length;
