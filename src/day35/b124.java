@@ -1,6 +1,13 @@
 package day35;
 
 public class b124 {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        System.out.println(s.maxPathSum(root));
+    }
     static class TreeNode {
         int val;
         TreeNode left;
