@@ -1,5 +1,5 @@
 package day39;
-//
+
 public class a2267 {
     public boolean hasValidPath(char[][] grid) {
         int m = grid.length;
