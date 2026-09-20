@@ -1,6 +1,6 @@
 package day36;
 
-public class a1401 {
+public class a3498 {
     public static int reverseDegree(String s) {
         int sum = 0;
         for (int i = 0; i < s.length(); i++) {
