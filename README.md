@@ -100,3 +100,38 @@ Repository ready for daily practice updates.
 | Day 33 | Shortest Paths & Graph Algorithms | [x] Completed | LC 743, LC 787, LC 1584, LC 127, LC 841 |
 | Day 34 | Classic Hard & Advanced Structures | [x] Completed | LC 42, LC 84, LC 23, LC 76, LC 295 |
 | Day 35 | Capstone Challenges | [x] Completed | LC 51, LC 124, LC 41, LC 4, LC 32 |35 days (175 problems) completed with verified test runners.
+
+### Week 8: Days 36 to 50 Curriculum & Completion
+- Day 36: LC 3498 + Linear Search, Max Element, Reverse Array
+- Day 37: LC 455, LC 744 + Binary Search, Check Sorted
+- Day 38: LC 1190, LC 1614 + Second Largest, Count Even Odd
+- Day 39: LC 2267 + Array Sum, Binary-Decimal Conversions
+- Day 40: LC 4014 + Linear Search, Find Min, Array Average
+- Day 41: LC 4015 + Binary Search, Reverse Array, Count Occurrences
+- Day 42: LC 4016 + Search Insert, Check Sorted, Rotate Left
+- Day 43: LC 4017 + Second Largest, Remove Duplicates, Count Set Bits
+- Day 44: LC 4018 + Square Root Binary Search, Move Zeroes, Sum Even Numbers
+- Day 45: LC 455 + First/Last Occurrence, Merge Sorted Arrays
+- Day 46: LC 744 + Binary Decimal Conversions, Missing Number
+- Day 47: LC 1190 + Count Even/Odd, Palindrome Check, 2D Matrix Search
+- Day 48: LC 1614 + Recursive Binary Search, Peak Element, Reverse Copy
+- Day 49: LC 2267 (Sept 29 POTD) + Find Duplicate, Frequency Map, Binary Search Ceil
+- Day 50: LC 1111 (Sept 30 POTD) + Binary Search Floor, Two Sum Sorted, Power of Two
+
+| Day | Topic | Status | Problems |
+|---|---|---|---|
+| Day 36 | Strings & Array Basics | [x] Completed | LC 3498, Linear Search, Max Element, Reverse Array |
+| Day 37 | Binary Search & Greedy | [x] Completed | LC 455, LC 744, Binary Search, Check Sorted |
+| Day 38 | Parentheses & Array Stats | [x] Completed | LC 1190, LC 1614, Second Largest, Even Odd Count |
+| Day 39 | Grid DP & Binary Numbers | [x] Completed | LC 2267, Array Sum, Binary to Decimal, Decimal to Binary |
+| Day 40 | Discount DP & Array Search | [x] Completed | LC 4014, Linear Search, Find Min, Average |
+| Day 41 | Trees & Binary Search | [x] Completed | LC 4015, Binary Search, Reverse Array, Count Occurrences |
+| Day 42 | Matrix Squares & Array Rotation | [x] Completed | LC 4016, Search Insert, Check Sorted, Rotate Left |
+| Day 43 | Peak Element & Bit Manipulation | [x] Completed | LC 4017, Second Largest, Remove Duplicates, Count Set Bits |
+| Day 44 | Math, Zeroes & Binary Search | [x] Completed | LC 4018, Sqrt Binary Search, Move Zeroes, Sum Even |
+| Day 45 | Two Pointers & Occurrence Search | [x] Completed | LC 455, First Occurrence, Last Occurrence, Merge Sorted |
+| Day 46 | Letter Search & Missing Number | [x] Completed | LC 744, Dec to Bin, Bin to Dec, Missing Number |
+| Day 47 | Parentheses & 2D Search | [x] Completed | LC 1190, Even Odd Count, Palindrome, 2D Search |
+| Day 48 | Parentheses Depth & Recursive Search | [x] Completed | LC 1614, Recursive BS, Peak Element, Reverse Copy |
+| Day 49 | Sept 29 POTD & Frequency Map | [x] Completed | LC 2267, Find Duplicate, Frequency Map, BS Ceil |
+| Day 50 | Sept 30 POTD & Binary Search Mastery | [x] Completed | LC 1111, BS Floor, Two Sum Sorted, Power of Two |
