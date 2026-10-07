@@ -1,5 +1,5 @@
 package day39;
-//valid parenthisis
+//valid parenthisiss
 public class a2267 {
     public boolean hasValidPath(char[][] grid) {
         int m = grid.length;
